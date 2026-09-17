@@ -1,0 +1,18 @@
+{
+    "epochs": 1,
+    "batch_size": 8,
+    "encoder_hidden": 256,
+    "decoder_hidden": 256,
+    "temp": 0.5,
+    "num_atoms": 18,
+    "edge_types": 2,
+    "timesteps": 899,
+    "dims": 1,
+    "prediction_steps": 1,
+    "lr": 0.0005,
+    "var": 5e-05,
+    "hard": false,
+    "no_factor": false,
+    "cuda": false,
+    "save_dir": "logs_boolode/dyn-LL-1"
+}
